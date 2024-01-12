@@ -1,0 +1,17 @@
+<template>
+        <lightning-card  title="Hello">
+            <div class="slds-p-left_x-small">
+                <p>{greeting}</p>
+                <p>{welcome}</p>
+            </div>
+            <div>
+                <lightning-button variant= "brand"
+                label="Change Result" 
+                slot="actions"
+                icon-name="standard:announcement"
+                class="slds-m-left_x-small"
+                onclick={clickHandler}
+                ></lightning-button>
+            </div>
+        </lightning-card>
+</template>

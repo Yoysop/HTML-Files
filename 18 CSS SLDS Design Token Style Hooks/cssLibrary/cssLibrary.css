@@ -1,0 +1,14 @@
+h1 {
+    font-size: 50px;
+    color: rgb(228, 79, 79);
+}
+
+.paraclass {
+    font-size: 25px;
+    color: green;
+}
+
+.btnbg{
+    --slds-c-button-success-color-background : rgb(181, 11, 181);
+    --slds-c-button-success-color-background-hover: var(--c-custombackground);
+}
